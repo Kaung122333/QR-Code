@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link To QRCode </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e21bbcc9ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <p>Enter Your Text Or URL</p>
+        <input type="text" name="" id="qrText" placeholder="Text or URL">
+        <div class="img-box">
+            <img src="" alt="" id="qrImage">
+        </div>
+        <button onclick="generateQR()">Generate QRCODE</button>
+        <button class="download-parent" onclick="downloadQR()">
+            <i id="move" class="fa-solid fa-arrow-down download"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
